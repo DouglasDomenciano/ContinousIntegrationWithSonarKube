@@ -1,0 +1,8 @@
+{
+  "name": "ContinousIntegrationWithSonarKube",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/DouglasDomenciano/ContinousIntegrationWithSonarKube.git",
+  "author": "DouglasDomenciano <douglas.domenciano@gmail.com>",
+  "license": "MIT"
+}
