@@ -13,23 +13,31 @@ jobs:
       matrix:
         node: [ 18 ]
     steps:
-      - name: Setup node
-      - uses: actions/checkout@v4
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node }}
-      - uses: mskelton/setup-yarn@v1
+
+      - name: Setup yarn    
+        uses: mskelton/setup-yarn@v1
 
       - name: Install and build
-      - run: yarn --no-lockfile
-      - run: yarn run tsc
+        run: yarn --no-lockfile
+
+      - name: Install and build
+        run: yarn run tsc
   sonarcloud:
     name: SonarCloud
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout code
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0  # Shallow clones should be disabled for a better relevancy of analysis
+
       - name: SonarCloud Scan
         uses: SonarSource/sonarcloud-github-action@master
         env:
