@@ -1,3 +1,9 @@
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=ContinousIntegrationWithSonarKube&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=ContinousIntegrationWithSonarKube)
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=ContinousIntegrationWithSonarKube&metric=bugs)](https://sonarcloud.io/summary/new_code?id=ContinousIntegrationWithSonarKube)
+[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=ContinousIntegrationWithSonarKube&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=ContinousIntegrationWithSonarKube)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=ContinousIntegrationWithSonarKube&metric=coverage)](https://sonarcloud.io/summary/new_code?id=ContinousIntegrationWithSonarKube)
+[![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=ContinousIntegrationWithSonarKube&metric=duplicated_lines_density)](https://sonarcloud.io/summary/new_code?id=ContinousIntegrationWithSonarKube)
+
 # ContinousIntegrationWithSonarKube
 Javascript test project for install and use github actions with SonarKube local and SonarCloud
 
