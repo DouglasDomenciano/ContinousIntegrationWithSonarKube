@@ -43,21 +43,3 @@ Acess your browser and navigate to http://localhost:9000 to finish sonar configu
 ### Docker instalation
 
 If you dont have docker, follow the official documentation: [Docker documentation](https://docs.docker.com/engine/install/ubuntu/)
-
-
-
-
-
-
-
-
-
-
-
-export PATH=$JAVA_HOME/bin:$PATH
-
-
-sonarcloud key playcthulhu-com
-
-
-sonar-scanner   -Dsonar.projectKey=ContinousIntegrationWithSonarKube   -Dsonar.sources=.   -Dsonar.host.url=http://localhost:9000   -Dsonar.token=<SEU_TOKEN_GERADO_APOS-LOGIN>
